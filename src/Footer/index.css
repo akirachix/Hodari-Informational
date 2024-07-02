@@ -1,0 +1,698 @@
+
+.logo img{
+    height: 110px;
+    width: 110px;
+}
+.footer{
+    display: flex;
+    gap: 10%;
+    background-color:#121126;
+    height: 300px;
+}
+.logo{
+    margin-top: 2%;
+    margin-left: 7.5%;
+}
+.info{
+    display: flex;
+    gap: 420px;
+}
+.resources{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.contact b{
+    color: white;
+    font-size: 25px;
+    margin-right: 5%;
+}
+.resources b{
+    color: white;
+    font-size: 25px;
+    margin-left: 18%;
+}
+.social-media{
+    display: flex;
+    gap: 30%;
+    padding-top: 77px;
+}
+.contact{
+    margin-top: 5%;
+}
+.contact img{
+    height: 30px;
+    width: 30px;
+}
+.social-media a img{
+    height: 30px;
+    width: 30px;
+}
+.resources li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+.resources ul{
+    list-style: none;
+}
+h4{
+    color: white;
+}
+span{
+    color: white;
+    font-size: 21px;
+}
+.resources h4{
+    padding-left: 35%;
+    font-size: 20px;
+}
+.contact img{
+    margin-right: 3%;
+}
+.icon{
+    font-size: 40px;
+    color: white;
+}
+.phone{
+    font-size: 15px;
+    color: white;
+}
+
+@media (min-width: 270px) and (max-width: 395px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Logo img{
+        height: 60px;
+        width: 60px;
+        margin-top:8%;
+        margin-left: -6%;
+    }
+    .social-media{
+        gap: 15%;
+        margin-left: 33%;
+        /* border: solid 2px; */
+        margin-top: -7%;
+    }
+    .Contact b{
+        font-size: 17px;
+        margin-left: 2%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2%;
+        background-color:#121126;
+        /* flex-wrap: wrap; */
+        height: 640px;
+        /* padding-top: 4%; */
+    }
+    .Logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    h4{
+        color: white;
+        font-size: 14px;
+    }
+    span{
+        color: white;
+        font-size: 14px;
+    }
+    .Resources b{
+        font-size: 16px;
+        margin-left: 13%;
+    }
+    .Resources{
+        margin-left: -10%;
+        margin-top: 1%;
+    }
+    .Contact img{
+        height: 15px;
+        width: 15px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .Contact{
+        margin-top: 8%;
+        margin-left: 7%;
+    }
+    .Resources{
+        margin-top: 8%;
+    }
+    .phone{
+        font-size: 11px;
+    }
+    .features{
+        margin-left: 0.5%;
+    }
+}
+@media (min-width: 270px) and (max-width: 395px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Logo img{
+        height: 60px;
+        width: 60px;
+        margin-top:8%;
+        margin-left: -6%;
+    }
+    .social-media{
+        gap: 15%;
+        margin-left: 33%;
+        /* border: solid 2px; */
+        margin-top: -7%;
+    }
+    .Contact b{
+        font-size: 17px;
+        margin-left: 2%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2%;
+        background-color:#121126;
+        /* flex-wrap: wrap; */
+        height: 640px;
+        /* padding-top: 4%; */
+    }
+    .Logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    h4{
+        color: white;
+        font-size: 14px;
+    }
+    span{
+        color: white;
+        font-size: 14px;
+    }
+    .Resources b{
+        font-size: 16px;
+        margin-left: 13%;
+    }
+    .Resources{
+        margin-left: -9%;
+        margin-top: 1%;
+    }
+    .Contact img{
+        height: 15px;
+        width: 15px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .Contact{
+        margin-top: 8%;
+        margin-left: 7%;
+    }
+    .Resources{
+        margin-top: 8%;
+    }
+    .phone{
+        font-size: 11px;
+    }
+    .features{
+        margin-left: 0.5%;
+    }
+}
+@media (min-width: 400px) and (max-width: 490px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Logo img{
+        height: 60px;
+        width: 60px;
+        margin-top:8%;
+        margin-left: -7%;
+    }
+    .social-media{
+        gap: 15%;
+        margin-left: 31%;
+        margin-top: -8%;
+        /* border: solid 2px; */
+    }
+    .Contact b{
+        font-size: 18px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3%;
+        background-color:#121126;
+        /* flex-wrap: wrap; */
+        height: 640px;
+        /* padding-top: 4%; */
+    }
+    .Logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    h4{
+        color: white;
+        font-size: 14px;
+    }
+    span{
+        color: white;
+        font-size: 14px;
+    }
+    .Resources b{
+        font-size: 18px;
+        margin-left: 13%;
+    }
+    .Resources{
+        margin-left: -9%;
+        margin-top: 2%;
+    }
+    .Contact img{
+        height: 15px;
+        width: 15px;
+    }
+    .icon{
+        font-size: 25px;
+    }
+    .Contact{
+        margin-top: 8%;
+        margin-left: 7%;
+    }
+    .Resources{
+        margin-top: 8%;
+    }
+    .phone{
+        font-size: 11px;
+    }
+    .features{
+        margin-left: 0.5%;
+    }
+}
+@media (min-width: 500px) and (max-width: 590px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Logo img{
+        height: 60px;
+        width: 60px;
+        margin-top:8%;
+        margin-left: -6%;
+    }
+    .social-media{
+        gap: 15%;
+        margin-left: 31%;
+        margin-top: -8%;
+        /* border: solid 2px; */
+    }
+    .Contact b{
+        font-size: 18px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2%;
+        background-color:#121126;
+        /* flex-wrap: wrap; */
+        width: 375px;
+        height: 640px;
+        /* padding-top: 4%; */
+    }
+    .Logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    h4{
+        color: white;
+        font-size: 14px;
+    }
+    span{
+        color: white;
+        font-size: 14px;
+    }
+    .Resources b{
+        font-size: 18px;
+        margin-left: 13%;
+    }
+    .Resources{
+        margin-left: -9%;
+        margin-top: 1%;
+    }
+    .Contact img{
+        height: 15px;
+        width: 15px;
+    }
+    .icon{
+        font-size: 25px;
+    }
+    .Contact{
+        margin-top: 8%;
+        margin-left: 7%;
+    }
+    .Resources{
+        margin-top: 8%;
+    }
+    .phone{
+        font-size: 11px;
+    }
+    .features{
+        margin-left: 0.5%;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .Logo{
+        margin-top: 7%;
+    }.info{
+        display: flex;
+        gap: 140px;
+    }
+    .Logo img{
+        height: 60px;
+        width: 60px;
+    }
+    .social-media{
+        margin-left: -1%;
+        margin-top: -9px;
+    }
+    .footer{
+        display: flex;
+        gap: 8%;
+        background-color:#121126;
+        height: 250px;
+        margin-left: -2%;
+        width: 782px;
+        /* flex-wrap: wrap; */
+        margin-left: -2%;
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    h4{
+        color: white;
+        font-size: 18px;
+    }
+    span{
+        color: white;
+        font-size: 14px;
+    }
+    .Resources{
+        margin-left: 8%;
+        margin-top: 8%;
+        
+    }
+    .Contact img{
+        height: 15px;
+        width: 15px;
+    }
+    .social-media a img{
+        height: 30px;
+        width: 30px;
+    }
+    .Contact{
+        margin-top: 8.5%;
+        
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .Contact b{
+        font-size: 19px;
+    }
+    .Resources b{
+        font-size: 19px;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px){
+    .Logo{
+        margin-top: 4%;
+    }.info{
+        display: flex;
+        gap: 110px;
+    }
+    .Logo img{
+        height: 60px;
+        width: 60px;
+        margin-top:  31%;
+    }
+    .social-media{
+        margin-left: 0%;
+        margin-top:  -1%;
+    }
+    .footer{
+        display: flex;
+        gap: 8%;
+        background-color:#121126;
+        /* flex-wrap: wrap; */
+        margin-left: -2%;
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+    }
+    h4{
+        color: white;
+        font-size: 18px;
+    }
+    span{
+        color: white;
+        font-size: 17px;
+    }
+    .Resources{
+        margin-left: 8%;
+        margin-top: 8%;
+    }
+    .Contact img{
+        height: 15px;
+        width: 15px;
+    }
+    .social-media a img{
+        height: 30px;
+        width: 30px;
+    }
+    .Contact{
+        margin-top: 8.5%;
+        
+    }
+    .icon{
+        font-size: 25px;
+    }
+    .Resources b{
+        font-size: 20px;
+    }
+    .Contact b{
+        font-size: 20px;
+    }
+}
+@media (min-width: 901px) and (max-width: 999px){
+    .Logo{
+        margin-top: 3%;
+    }.info{
+        display: flex;
+        gap: 150px;
+    }
+    .Logo img{
+        height: 80px;
+        width: 80px;
+        margin-top:  31%;
+    }
+    .social-media{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .footer{
+        display: flex;
+        gap: 8%;
+        background-color:#121126;
+        width: 912px;
+        /* flex-wrap: wrap; */
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+    }
+    h4{
+        color: white;
+        font-size: 18px;
+    }
+    span{
+        color: white;
+        font-size: 17px;
+    }
+    .Resources{
+        margin-left: 8%;
+        margin-top: 8%;
+    }
+    .Contact img{
+        height: 15px;
+        width: 15px;
+    }
+    .social-media a img{
+        height: 30px;
+        width: 30px;
+    }
+    .Contact{
+        margin-top: 8.5%;
+        
+    }
+    .icon{
+        font-size: 25px;
+    }
+    .Resources b{
+        font-size: 20px;
+    }
+    .Contact b{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1190px){
+    .Logo{
+        margin-top: 5%;
+    }
+    .info{
+        display: flex;
+        gap: 165px;
+    }
+    .Logo img{
+        height: 80px;
+        width: 80px;
+    }
+    .social-media{
+        margin-left: -2%;
+        margin-top: -0%;
+    }
+    .footer{
+        display: flex;
+        gap: 10%;
+        background-color:#121126;
+        border: solid 2px wheat;
+        margin-left: -3%;
+        /* flex-wrap: wrap; */
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    h4{
+        color: white;
+        font-size: 20px;
+    }
+    span{
+        color: white;
+        font-size: 16px;
+    }
+    .Resources b{
+        font-size: 25px;
+    }
+    .Resources{
+        margin-left: 1%;
+        margin-top: 8%;
+    }
+    .Contact b{
+        font-size: 24px;
+    }
+    .social-media a img{
+        height: 30px;
+        width: 30px;
+    }
+    .Contact{
+        margin-top: 8%;
+    }
+    .icon{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+    .Logo{
+        margin-top: 4%;
+    }
+    .info{
+        display: flex;
+        gap: 155px;
+    }
+    .Logo img{
+        height: 80px;
+        width: 80px;
+    }
+    .social-media{
+        margin-left: -2%;
+        margin-top: 0%;
+    }
+    .footer{
+        display: flex;
+        gap: 8%;
+        background-color:#121126;
+        border: solid 2px wheat;
+        margin-left: -3%;
+        /* flex-wrap: wrap; */
+    }
+    .Resources li a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    h4{
+        color: white;
+        font-size: 20px;
+    }
+    span{
+        color: white;
+        font-size: 16px;
+    }
+    .Resources b{
+        font-size: 25px;
+    }
+    .Resources{
+        margin-left: 1%;
+        margin-top: 8%;
+    }
+    .Contact b{
+        font-size: 24px;
+    }
+    .social-media a img{
+        height: 30px;
+        width: 30px;
+    }
+    .Contact{
+        margin-top: 8%;
+    }
+    .icon{
+        font-size: 25px;
+    }
+}
